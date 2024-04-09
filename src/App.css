@@ -6,7 +6,7 @@
   width:100%;
   background-color: lightcyan;
   display: flex;
-flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 h1, h2, h3 {
@@ -19,7 +19,7 @@ p{
 }
 .products {
   display: flex;
- 
+
 }
 
 .product {

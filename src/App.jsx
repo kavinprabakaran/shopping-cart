@@ -16,6 +16,8 @@ const Product = ({ name, description, price, onAddToCart, onRemoveFromCart, isIn
 
 const ShoppingCart = ({ items }) => (
   <div className="shopping-cart">
+    <h1 >Online Shopping</h1>
+      <p>Home page </p>
     <h2>Shopping Cart</h2>
     <p>Total Items: {items.length}</p>
     <ul>
@@ -48,8 +50,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 >Online Shopping</h1>
-      <p>Home page </p>
+      
       <div className="products">
         {products.map(product => (
           <Product
