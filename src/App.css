@@ -4,8 +4,7 @@
   margin: 0 auto;
   padding: 20px;
   width:100%;
-  
-  
+  background-color: lightcyan;
 }
 
 h1, h2, h3 {
@@ -50,6 +49,7 @@ p{
 
 .shopping-cart {
   margin-top: 20px;
+  background-color: lightpink;
 }
 
 .shopping-cart ul {

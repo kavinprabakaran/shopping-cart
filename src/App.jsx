@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 const Product = ({ name, description, price, onAddToCart, onRemoveFromCart, isInCart }) => (
   <div className="product">
